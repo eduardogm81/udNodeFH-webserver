@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eduardogm81/udNodeFH-webserver#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
   }
 }

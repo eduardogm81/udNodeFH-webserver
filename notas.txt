@@ -3,3 +3,7 @@ https://nodejs.org/dist/latest-v9.x/docs/api/http.html
 
 // Servidor Express
 https://www.npmjs.com/package/express
+
+// Handlebars JS
+https://handlebarsjs.com/
+https://www.npmjs.com/package/hbs

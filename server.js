@@ -1,17 +1,15 @@
 const express = require('express');
 const app = express();
 
+// Definimos el contenido público
 app.use(express.static( __dirname + '/public' ));
 
-app.get('/', (req, res) => {
-    // res.send('Hola Mundo');
+// Express HBS Engine
+app.set('view engine', 'hbs');
 
-    let salida = {
-        nombre: 'Fernando',
-        edad: 12332,
-        url: req.url
-    };
-    res.send(salida);
+app.get('/', (req, res) => {
+
+    res.render('home', { nombre: 'Fernando', anio: new Date().getFullYear()});
 
 });
 
