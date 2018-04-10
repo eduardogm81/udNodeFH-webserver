@@ -7,3 +7,6 @@ https://www.npmjs.com/package/express
 // Handlebars JS
 https://handlebarsjs.com/
 https://www.npmjs.com/package/hbs
+
+// Indicarle a nodemon el tipo de archivos que queremos que escuche
+nodemon server.js -e js,hbs,html,css
